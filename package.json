@@ -1,11 +1,23 @@
 {
-  "name": "test-gitt",
+  "name": "semantic-dth",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
-    "react-scripts": "3.1.1"
+    "@atlaskit/css-reset": "^5.0.5",
+    "axios": "^0.19.0",
+    "final-form": "^4.18.2",
+    "react": "^16.8.6",
+    "react-contenteditable": "^3.3.1",
+    "react-dom": "^16.8.6",
+    "react-expanding-textarea": "^1.0.0",
+    "react-final-form": "^6.3.0",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1",
+    "react-table": "^6.10.0",
+    "react-textarea-autosize": "^7.1.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.87.3",
+    "styled-components": "^4.3.2"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -1,0 +1,60 @@
+.pusher.sideBar-pusher {
+    height: calc(100vh - 60px);
+    overflow: auto;
+}
+
+.sidebar-nav .ui.segment.pushable{
+    padding: 0!important;
+    border: none ;
+    border-radius: 0;
+}
+
+.sidebar-nav .ui.overlay.sidebar.menu{
+    width: 15rem;
+}
+
+.sidebar-nav .ui.overlay.sidebar.menu .active{
+    background: orange;
+}
+.menu-bar {
+    display: flex;
+    justify-content: center;
+    padding-top: 0.8rem;
+    width: 80%;
+    border: none;
+    margin: 0 auto;
+}
+
+.menu-bar .ui.menu .active {
+    background: orange;
+
+}
+.menu-bar .ui.menu {
+    padding: 0.5rem;
+}
+
+.menu-bar .ui.menu a{
+    margin-left: 5px;
+}
+.menu-bar .ui.menu .active:hover {
+    background: orange;
+
+}
+
+.menu-bar .ui.menu a {
+    font-size: 0.78rem;
+}
+
+.menu-bar .ui.menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+.sidebar-nav .ui.inverted.menu {
+    background-color: #FFFFFF;
+}
+.sidebar-nav .ui.inverted.icon.menu .item {
+    color: #383838;
+    border-bottom: 1px solid #aaaaaa;
+    font-weight: 700;
+    font-size: 16px;
+}

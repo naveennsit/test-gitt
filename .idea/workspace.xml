@@ -1,7 +1,125 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f97075fe-a293-45a2-8677-d81a2c2f10bb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/add-agency/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/add-user/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/agency-list/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/agency-list/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/airtel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/dth.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/components/SingleSelectAutoComplete/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/components/Table/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/components/TextField/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/components/app-with-icon/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/components/apps/apps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/components/delete-modal/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/components/header/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/components/sidebar/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/components/sidebar/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/components/sub-header/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/components/textarea/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/components/title/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/components/util-component/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constant.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/loading.context.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/navigation-container/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/providers/loading.providers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spinner/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/user-list/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1PSwqgEvr5YOGOQLcPYROzQDXE4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f97075fe-a293-45a2-8677-d81a2c2f10bb" name="Default Changelist" comment="" />
+      <created>1565880997555</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565880997555</updated>
+      <workItem from="1565880999411" duration="637000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
