@@ -11,32 +11,16 @@ import AppWithIcon from "../common/components/app-with-icon";
 import logoImage from "../assets/image/dth.png";
 
 const Home =(props) => {
-    const user = {
-        name: 'test',
-        apps: [{
-            name: 'DTH'
-        }
-        ]
-    };
+
    const clickAppLink = ()=>{
        props.history.push('/dth/agency-list');
    }
-    const showAppList = useCallback(()=>{
-       return  user.apps.map((i)=>{
-            return (
-                <AppWithIcon key={i.name} title={i.name} src={getAppImage(i.name)} onclick={clickAppLink}/>
-            )
-        })
-    },[]);
+
 
     return (
         <Fragment>
-            <AppHeader showMenuOption={true}/>
-            <SubHeader title="My Apps"/>
-            <Container>
-                <TitleText text={'My Apps'}/>
-                {showAppList()}
-            </Container>
+
+           <button onClick={()=>clickAppLink()}>click</button>
         </Fragment>
     );
 };

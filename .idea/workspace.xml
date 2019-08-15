@@ -2,44 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f97075fe-a293-45a2-8677-d81a2c2f10bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/add-agency/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/add-user/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/agency-list/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/agency-list/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/image/airtel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/image/dth.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/components/SingleSelectAutoComplete/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/components/Table/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/components/TextField/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/components/app-with-icon/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/components/apps/apps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/components/delete-modal/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/components/header/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/components/sidebar/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/components/sidebar/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/components/sub-header/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/components/textarea/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/components/title/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/components/util-component/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constant.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/context/loading.context.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/home/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/navigation-container/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/providers/loading.providers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spinner/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/user-list/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/add-agency/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/add-agency/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/agency-list/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/agency-list/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/components/header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/header/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/components/sidebar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/sidebar/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -104,8 +74,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565880997555</updated>
-      <workItem from="1565880999411" duration="637000" />
+      <workItem from="1565880999411" duration="1561000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1565882783376</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1565882783376</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,5 +99,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>

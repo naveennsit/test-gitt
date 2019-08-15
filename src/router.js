@@ -13,11 +13,8 @@ const Router = () => {
     return (
         <div>
             <Switch>
-                <Route path="/app-list"  component={Home} />
+                <Route path="/" exact component={Home} />
                 <Route path="/dth"  component={NavigationContainer} />
-                {/*<Route path="/dth"  component={NavigationContainer} />*/}
-                {/*<Route path="/edit-agency" exact component={AddAgency} />*/}
-                {/*<Route path="/add-user" exact component={AddUser} />*/}
             </Switch>
         </div>
     );

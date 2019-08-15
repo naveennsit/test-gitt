@@ -48,12 +48,7 @@ const SidebarNavigation = ({showSideBar,toggleSideBar,match}) => {
                     <Switch>
                         {/*<Route path={"/app-list"}  exact component={Home} />*/}
                         <Route path={"/dth/add-agency"}  exact component={AddAgency}/>
-                        <Route path={"/dth/edit-agency"}  exact component={AddAgency}/>
-                        <Route path={"/dth/add-user"}  exact component={AddUser}/>
-                        <Route path={"/dth/edit-user"}  exact component={AddUser}/>
-                        <Route path={"/dth/agency-list"} exact  component={AgencyList}/>
-                        <Route path={"/dth/user-list"}  exact component={UserList}/>
-
+                        <Route path={match.url +"/agency-list"}  exact component={AgencyList}/>
                         <Redirect to="/"/>
                     </Switch>
                 </Sidebar.Pusher>

@@ -46,22 +46,14 @@ const AddAgency = ({location, history}) => {
     return (
         <Fragment>
 
-            <SubHeader/>
+
             <Container>
-                <TitleText text={state ? 'Edit Agency' : 'Add Agency'}/>
-                <button onClick={()=>{showLoading(); setTimeout(()=>hideLoading(),2000)}}>rrr</button>
                 <RFFORM
                     onSubmit={onSubmit}
                     initialValues={initialState}
                     validate={(values) => {
-                        const errors = {
-                            dth: {}
-                        };
-                        if (values.dth && !values.dth.serviceType) {
-                            errors.dth.serviceType = "Required";
-                        }
-                        console.log(JSON.stringify(errors))
-                        return errors;
+
+
                     }}
                     render={({handleSubmit, form, submitting, pristine, values, invalid}) => (
                         <SForm onSubmit={handleSubmit} size={"small"}>
@@ -77,138 +69,15 @@ const AddAgency = ({location, history}) => {
                             <SForm.Group widths="equal">
                                 <RFField
                                     component={TextField}
-                                    label="Agency Name"
-                                    name="agencyName"
+                                    label=" Name"
+                                    name="name"
                                     placeholder="Please Enter full Name"
                                     required={true}
                                     validate={composeValidators(required)}>
                                 </RFField>
-                                <RFField
-                                    component={TextField}
-                                    label="Contact Person"
-                                    name="contactPerson"
-                                    placeholder=""
-                                    required={true}
-                                    validate={required}
-                                />
-                            </SForm.Group>
 
-                            <SForm.Group widths="equal">
-                                <RFField
-                                    component={TextField}
-                                    label="Contact Mobile"
-                                    name="contactMobile"
-                                    placeholder="Please Enter contact mobile"
-                                    required={true}
-                                    onChange={(v) => {
-                                        console.log('====')
-                                    }}
-                                    validate={required}
-                                    type={'number'}
-                                />
-                                <RFField
-                                    component={TextField}
-                                    label="Email"
-                                    name="email"
-                                    placeholder=""
-                                />
                             </SForm.Group>
-                            <SForm.Group widths="equal">
-                                <RFField
-                                    component={TextField}
-                                    label="Address"
-                                    name="address"
-                                    placeholder=""
-                                    required={true}
-                                    validate={required}
-                                />
-                            </SForm.Group>
-                            <SForm.Group widths="equal">
-                                <RFField
-                                    component={TextField}
-                                    label="Mobility Sales Channel ID"
-                                    name="mobilitySalesChannelID"
-                                    placeholder="Not required for DTH"
-                                />
-                                <RFField
-                                    component={TextField}
-                                    label="Telemedia Sales Channel ID"
-                                    name="telemediaSaleChannelId"
-                                    placeholder="Required for PACE ONLY"
-                                />
-                            </SForm.Group>
-                            <SForm.Group widths="equal">
-                                <RFField
-                                    component={TextField}
-                                    label="Vendor Code"
-                                    name="vendorCode"
-                                    placeholder="Required for PACE ONLY"
-                                />
-                                <RFField
-                                    component={TextField}
-                                    label="Channel Partner ID"
-                                    name="channelPartnerId"
-                                    placeholder=""
-                                    format={(v) => v}
-                                    formatOnBlur
-                                />
-                            </SForm.Group>
-
-
-                            <TitleText text={'Location Mapping'}/>
-                            <FieldPrefix prefix="dth">
-                                <AppWithIcon title={'DTH Installation and Service'} src={logoImage}/>
-                                <SForm.Group widths="equal">
-                                    <PrefixedField
-                                        component={TextArea}
-                                        name="operatingPinCode"
-                                        placeholder="Operating Pincodes"
-                                        label="Operating Pincodes"
-                                        useCacheForDOMMeasurements
-                                        validate={required}
-                                        required={true}
-                                        format={(v) => {
-                                            if (v) {
-                                                let codes = v.split(',');
-                                                let newCodes = codes.filter((i) => i.length === 6);
-                                                return newCodes.sort().join(',')
-                                            }
-                                            return ''
-                                        }}
-                                        formatOnBlur
-                                    />
-                                </SForm.Group>
-                                <div className="mr-top10">
-                                    <SForm.Group>
-                                        <div
-                                            className={`field required ${values && values.dth && !values.dth.serviceType ? "error" : null}`}>
-                                            <label>Service Type</label>
-                                        </div>
-                                        <PrefixedField
-                                            component={renderRadio}
-                                            label="SDU"
-                                            name="serviceType"
-                                            radioValue={"SDU"}
-                                            error={values && values.dth && !values.dth.serviceType ? true : false}
-
-                                        />
-                                        <PrefixedField
-                                            component={renderRadio}
-                                            label="MDU"
-                                            name="serviceType"
-                                            radioValue={"MDU"}
-                                            error={values && values.dth && !values.dth.serviceType ? true : false}
-                                        />
-                                        <PrefixedField
-                                            component={renderRadio}
-                                            label="Both"
-                                            name="serviceType"
-                                            error={values && values.dth && !values.dth.serviceType ? true : false}
-                                        />
-
-                                    </SForm.Group>
-                                </div>
-                            </FieldPrefix>
+                            
                             <br/>
                             <br/>
                             <pre>{JSON.stringify(values, 0, 2)}</pre>

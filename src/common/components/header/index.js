@@ -34,7 +34,6 @@ const AppHeader = ({toggleSideBar,showMenuOption=false}) => {
                     </Menu.Item>
                 </Menu>
             </MenuContainer> :null}
-            <Image id="titleLogo" src={logoImage}/>
         </Wrapper>
     );
 };
