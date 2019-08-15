@@ -5,7 +5,6 @@ import {Dimmer, Loader} from "semantic-ui-react";
 import {ConfigContext} from './index'
 import AddAgency from "./add-agency";
 import AgencyList from "./agency-list";
-import AddUser from "./add-user";
 import NavigationContainer from "./navigation-container";
 import LoadingContext from "./context/loading.context";
 

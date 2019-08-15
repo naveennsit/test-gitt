@@ -5,9 +5,7 @@ import AddAgency from "../../../add-agency";
 import './index.css';
 import {MENU_OPTION} from "../../../constant";
 import Home from "../../../home";
-import AddUser from "../../../add-user";
 import AgencyList from "../../../agency-list";
-import UserList from "../../../user-list";
 
 const SidebarNavigation = ({showSideBar,toggleSideBar,match}) => {
     console.log(match)

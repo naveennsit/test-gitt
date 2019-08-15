@@ -5,12 +5,9 @@ import TitleText from "../common/components/title";
 import {Button, Container, DangerButton, SaveButton} from "../common/components/util-component";
 import {Form as RFFORM, Field as RFField} from "react-final-form";
 import {Form as SForm, Input} from "semantic-ui-react";
-import TextArea from "../common/components/textarea";
-import AppWithIcon from "../common/components/app-with-icon";
-import logoImage from '../assets/image/dth.png';
+
 import {composeValidators, FieldPrefix, mailVerified, PrefixedField, renderRadio, required} from "../utils";
 import {TextField} from "../common";
-import {sendPostRequest} from "../constant";
 import LoadingContext from "../context/loading.context";
 
 const AddAgency = ({location, history}) => {
@@ -77,7 +74,7 @@ const AddAgency = ({location, history}) => {
                                 </RFField>
 
                             </SForm.Group>
-                            
+
                             <br/>
                             <br/>
                             <pre>{JSON.stringify(values, 0, 2)}</pre>
