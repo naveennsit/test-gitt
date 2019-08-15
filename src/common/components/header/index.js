@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
-import logoImage from '../../../assets/image/airtel.png';
-import SubHeader from "../sub-header";
+
 import {Icon, Menu} from "semantic-ui-react";
 
 

@@ -1,7 +1,5 @@
 import React, {Fragment, useState, useContext} from 'react';
-import AppHeader from "../common/components/header";
-import SubHeader from "../common/components/sub-header";
-import TitleText from "../common/components/title";
+
 import {Button, Container, DangerButton, SaveButton} from "../common/components/util-component";
 import {Form as RFFORM, Field as RFField} from "react-final-form";
 import {Form as SForm, Input} from "semantic-ui-react";
